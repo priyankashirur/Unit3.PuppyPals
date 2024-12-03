@@ -5,38 +5,38 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  font-family: "comic sans MS";
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  color: pink;
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.App {
+  gap: 20px;
+  text-align: center;
 }
 
-.card {
-  padding: 2em;
+.puppy-list {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  position: sticky;
+  font-family: "comic sans MS";
 }
 
-.read-the-docs {
-  color: #888;
+.feat {
+  border: solid rgb(235, 50, 183) 1px;
+  border-radius: 10%;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  align-self: center;
+  margin-left: 20px;
+  width: 300px;
+  font-family: "comic sans MS";
 }
